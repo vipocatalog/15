@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מפעל ייצור מתנפחים לחצר 01</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="flipbook.js" defer></script>
+</head>
+<body>
+    <div class="flipbook-container fullscreen">
+        <div class="flipbook-header">
+            <h1>מפעל ייצור מתנפחים לחצר 01</h1>
+            <div class="controls">
+                <button id="prev-btn" title="עמוד קודם">&#10094;</button>
+                <span id="page-num">1</span> / <span id="page-count">65</span>
+                <button id="next-btn" title="עמוד הבא">&#10095;</button>
+                <button id="fullscreen-btn" title="מסך מלא">⛶</button>
+            </div>
+        </div>
+        
+        <div class="flipbook-viewer">
+            <div id="book">
+                <!-- Pages will be inserted here by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- אזור התמונות הממוזערות הוסר כדי לנצל את כל שטח המסך -->
+        
+        <div class="flipbook-footer">
+            <p>נוצר באמצעות מערכת המרת PDF לקטלוג דיגיטלי</p>
+        </div>
+    </div>
+    
+    <script>
+        // Catalog data will be inserted here
+        var catalogData = {"title": "מפעל ייצור מתנפחים לחצר 01", "pages": 65, "theme": "מודרני", "createdAt": "2025-06-29 12:10:00", "pageInfo": [{"pageNumber": 1, "imagePath": "images/page_1.webp", "thumbPath": "thumbs/thumb_1.webp"}, {"pageNumber": 2, "imagePath": "images/page_2.webp", "thumbPath": "thumbs/thumb_2.webp"}, {"pageNumber": 3, "imagePath": "images/page_3.webp", "thumbPath": "thumbs/thumb_3.webp"}, {"pageNumber": 4, "imagePath": "images/page_4.webp", "thumbPath": "thumbs/thumb_4.webp"}, {"pageNumber": 5, "imagePath": "images/page_5.webp", "thumbPath": "thumbs/thumb_5.webp"}, {"pageNumber": 6, "imagePath": "images/page_6.webp", "thumbPath": "thumbs/thumb_6.webp"}, {"pageNumber": 7, "imagePath": "images/page_7.webp", "thumbPath": "thumbs/thumb_7.webp"}, {"pageNumber": 8, "imagePath": "images/page_8.webp", "thumbPath": "thumbs/thumb_8.webp"}, {"pageNumber": 9, "imagePath": "images/page_9.webp", "thumbPath": "thumbs/thumb_9.webp"}, {"pageNumber": 10, "imagePath": "images/page_10.webp", "thumbPath": "thumbs/thumb_10.webp"}, {"pageNumber": 11, "imagePath": "images/page_11.webp", "thumbPath": "thumbs/thumb_11.webp"}, {"pageNumber": 12, "imagePath": "images/page_12.webp", "thumbPath": "thumbs/thumb_12.webp"}, {"pageNumber": 13, "imagePath": "images/page_13.webp", "thumbPath": "thumbs/thumb_13.webp"}, {"pageNumber": 14, "imagePath": "images/page_14.webp", "thumbPath": "thumbs/thumb_14.webp"}, {"pageNumber": 15, "imagePath": "images/page_15.webp", "thumbPath": "thumbs/thumb_15.webp"}, {"pageNumber": 16, "imagePath": "images/page_16.webp", "thumbPath": "thumbs/thumb_16.webp"}, {"pageNumber": 17, "imagePath": "images/page_17.webp", "thumbPath": "thumbs/thumb_17.webp"}, {"pageNumber": 18, "imagePath": "images/page_18.webp", "thumbPath": "thumbs/thumb_18.webp"}, {"pageNumber": 19, "imagePath": "images/page_19.webp", "thumbPath": "thumbs/thumb_19.webp"}, {"pageNumber": 20, "imagePath": "images/page_20.webp", "thumbPath": "thumbs/thumb_20.webp"}, {"pageNumber": 21, "imagePath": "images/page_21.webp", "thumbPath": "thumbs/thumb_21.webp"}, {"pageNumber": 22, "imagePath": "images/page_22.webp", "thumbPath": "thumbs/thumb_22.webp"}, {"pageNumber": 23, "imagePath": "images/page_23.webp", "thumbPath": "thumbs/thumb_23.webp"}, {"pageNumber": 24, "imagePath": "images/page_24.webp", "thumbPath": "thumbs/thumb_24.webp"}, {"pageNumber": 25, "imagePath": "images/page_25.webp", "thumbPath": "thumbs/thumb_25.webp"}, {"pageNumber": 26, "imagePath": "images/page_26.webp", "thumbPath": "thumbs/thumb_26.webp"}, {"pageNumber": 27, "imagePath": "images/page_27.webp", "thumbPath": "thumbs/thumb_27.webp"}, {"pageNumber": 28, "imagePath": "images/page_28.webp", "thumbPath": "thumbs/thumb_28.webp"}, {"pageNumber": 29, "imagePath": "images/page_29.webp", "thumbPath": "thumbs/thumb_29.webp"}, {"pageNumber": 30, "imagePath": "images/page_30.webp", "thumbPath": "thumbs/thumb_30.webp"}, {"pageNumber": 31, "imagePath": "images/page_31.webp", "thumbPath": "thumbs/thumb_31.webp"}, {"pageNumber": 32, "imagePath": "images/page_32.webp", "thumbPath": "thumbs/thumb_32.webp"}, {"pageNumber": 33, "imagePath": "images/page_33.webp", "thumbPath": "thumbs/thumb_33.webp"}, {"pageNumber": 34, "imagePath": "images/page_34.webp", "thumbPath": "thumbs/thumb_34.webp"}, {"pageNumber": 35, "imagePath": "images/page_35.webp", "thumbPath": "thumbs/thumb_35.webp"}, {"pageNumber": 36, "imagePath": "images/page_36.webp", "thumbPath": "thumbs/thumb_36.webp"}, {"pageNumber": 37, "imagePath": "images/page_37.webp", "thumbPath": "thumbs/thumb_37.webp"}, {"pageNumber": 38, "imagePath": "images/page_38.webp", "thumbPath": "thumbs/thumb_38.webp"}, {"pageNumber": 39, "imagePath": "images/page_39.webp", "thumbPath": "thumbs/thumb_39.webp"}, {"pageNumber": 40, "imagePath": "images/page_40.webp", "thumbPath": "thumbs/thumb_40.webp"}, {"pageNumber": 41, "imagePath": "images/page_41.webp", "thumbPath": "thumbs/thumb_41.webp"}, {"pageNumber": 42, "imagePath": "images/page_42.webp", "thumbPath": "thumbs/thumb_42.webp"}, {"pageNumber": 43, "imagePath": "images/page_43.webp", "thumbPath": "thumbs/thumb_43.webp"}, {"pageNumber": 44, "imagePath": "images/page_44.webp", "thumbPath": "thumbs/thumb_44.webp"}, {"pageNumber": 45, "imagePath": "images/page_45.webp", "thumbPath": "thumbs/thumb_45.webp"}, {"pageNumber": 46, "imagePath": "images/page_46.webp", "thumbPath": "thumbs/thumb_46.webp"}, {"pageNumber": 47, "imagePath": "images/page_47.webp", "thumbPath": "thumbs/thumb_47.webp"}, {"pageNumber": 48, "imagePath": "images/page_48.webp", "thumbPath": "thumbs/thumb_48.webp"}, {"pageNumber": 49, "imagePath": "images/page_49.webp", "thumbPath": "thumbs/thumb_49.webp"}, {"pageNumber": 50, "imagePath": "images/page_50.webp", "thumbPath": "thumbs/thumb_50.webp"}, {"pageNumber": 51, "imagePath": "images/page_51.webp", "thumbPath": "thumbs/thumb_51.webp"}, {"pageNumber": 52, "imagePath": "images/page_52.webp", "thumbPath": "thumbs/thumb_52.webp"}, {"pageNumber": 53, "imagePath": "images/page_53.webp", "thumbPath": "thumbs/thumb_53.webp"}, {"pageNumber": 54, "imagePath": "images/page_54.webp", "thumbPath": "thumbs/thumb_54.webp"}, {"pageNumber": 55, "imagePath": "images/page_55.webp", "thumbPath": "thumbs/thumb_55.webp"}, {"pageNumber": 56, "imagePath": "images/page_56.webp", "thumbPath": "thumbs/thumb_56.webp"}, {"pageNumber": 57, "imagePath": "images/page_57.webp", "thumbPath": "thumbs/thumb_57.webp"}, {"pageNumber": 58, "imagePath": "images/page_58.webp", "thumbPath": "thumbs/thumb_58.webp"}, {"pageNumber": 59, "imagePath": "images/page_59.webp", "thumbPath": "thumbs/thumb_59.webp"}, {"pageNumber": 60, "imagePath": "images/page_60.webp", "thumbPath": "thumbs/thumb_60.webp"}, {"pageNumber": 61, "imagePath": "images/page_61.webp", "thumbPath": "thumbs/thumb_61.webp"}, {"pageNumber": 62, "imagePath": "images/page_62.webp", "thumbPath": "thumbs/thumb_62.webp"}, {"pageNumber": 63, "imagePath": "images/page_63.webp", "thumbPath": "thumbs/thumb_63.webp"}, {"pageNumber": 64, "imagePath": "images/page_64.webp", "thumbPath": "thumbs/thumb_64.webp"}, {"pageNumber": 65, "imagePath": "images/page_65.webp", "thumbPath": "thumbs/thumb_65.webp"}], "fullscreen": true, "backgroundColor": "#333333"};
+    </script>
+</body>
+</html>
